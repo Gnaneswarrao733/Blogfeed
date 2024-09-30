@@ -1,0 +1,113 @@
+.app-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    font-family: Arial, sans-serif; 
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-bottom: 2px solid #ccc;
+}
+
+.navbar h2 {
+    margin: 0;
+}
+
+.navbar-search input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    margin-left: 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.content {
+    display: flex;
+    width: 100%;
+    max-width: 1200px; 
+    margin-top: 20px;
+}
+
+.sidebar {
+    width: 80%;
+    max-width: 130px; 
+    
+}
+.blog-feed {
+    flex: 3; 
+    padding: 10px;
+}
+
+.blog-post {
+    margin-bottom: 20px;
+    border: 0 solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: #fff;
+}
+
+.blog-post img {
+    max-width: 400%;
+    width: 100%;
+    height: 500px;
+    border-radius: 5px;
+}
+.blog-post a {
+    margin-left: 90%;
+}
+.sidebar {
+    flex: 1; 
+    padding: 10px;
+    border-left: 1px solid #ccc; 
+    background-color: #f9f9f9;
+}
+
+.sidebar h3 {
+    margin-top: 25px;
+}
+
+.categories button {
+    margin: 5px 0;
+    padding: 5px 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.categories button:hover {
+    background-color: #0056b3;
+}
+
+.sidebar a {
+    display: block;
+    margin: 25px 0;
+    text-decoration: none;
+    color: #007bff;
+}
+
+.sidebar a:hover {
+    text-decoration: underline;
+}
