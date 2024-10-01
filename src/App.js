@@ -1,9 +1,9 @@
 
 import React, { useState } from 'react';
 
-import './Blogfeed.css';
+import './Blog.css';
 
-import Blogfeed from './Blogfeed';
+import Blog from './Blog';
 
 const App = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -15,7 +15,7 @@ const App = () => {
   return (
     <div>
       
-      <Blogfeed />
+      <Blog />
     </div>
   );
 };
